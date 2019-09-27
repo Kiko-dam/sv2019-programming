@@ -1,0 +1,52 @@
+//Abraham García
+//Es múltiplo de...?
+
+using System;
+
+class Mul10
+{
+    static void Main()
+    {
+        int n;
+        
+        Console.Write("Introduce un número del 1 al 10: ");
+        n=Convert.ToInt32(Console.ReadLine());
+        
+        switch (n)
+        {
+            case 1:
+                Console.WriteLine("No es múltiplo ni de 2 ni de 3");
+                break;
+            case 2:
+                Console.WriteLine("Es múltiplo de 2");
+                break;
+            case 3:
+                Console.WriteLine("Es múltiplo de 3");
+                break;
+            case 4:
+                Console.WriteLine("Es múltiplo de 2");
+                break;
+            case 5:
+                Console.WriteLine("No es múltiplo ni de 2 ni de 3");
+                break;   
+            case 6:
+                Console.WriteLine("Es múltiplo de 2 y de 3");
+                break;
+            case 7:
+                Console.WriteLine("No es múltiplo ni de 2 ni de 3");
+                break;
+            case 8:
+                Console.WriteLine("Es múltiplo de 2");
+                break;
+            case 9:
+                Console.WriteLine("Es múltiplo de 3");
+                break;
+            case 10:
+                Console.WriteLine("Es múltiplo de 2");
+                break;
+            default:
+                Console.WriteLine("El número no es válido");
+                break;
+        }
+    }
+}
